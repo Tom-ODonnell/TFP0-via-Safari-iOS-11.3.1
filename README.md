@@ -6,6 +6,6 @@ This exploit obtains tfp0 from the WebContent sandbox (i.e. from a website), via
 
 See pwn_i8.js for details.
 
-I have no plans to work on this more. Stage 2 is closed source for now so people don't write malware, but I'm willing to provide sources to legitimate developers who want to build something awesome with it.
+I [niklsab] have no plans to work on this more. Stage 2 is closed source for now so people don't write malware, but I'm willing to provide sources to legitimate developers who want to build something awesome with it.
 
 Works best when no other apps are running in the background and phone is left alone for a while before clicking on the final alert. Watch console for stage 2 progress.
