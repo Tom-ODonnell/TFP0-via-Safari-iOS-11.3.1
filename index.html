@@ -1,2 +1,44 @@
-<script src="pwn_i8.js"></script>
-<button onclick="go()" style="font-size: 2cm; margin: 2cm;">Shell we?</button>
+<!DOCTYPE html>
+<html>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="apple-touch-icon" href="touch-icon-iphone.png">
+   <style>
+      body {
+      text-align:center;
+      text-decoration: none;
+      }
+      a:hover, a:visited, a:link, a:active {   
+      text-decoration: none;
+      }
+      .go {
+      position: fixed;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%)
+      }
+      p { 
+      margin: -3px 0;
+      }
+      footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      }
+   </style>
+   <body>
+      <p>This exploit uses CVE-2018-4233</p>
+      <p>(by saelo) to get RCE in WebContent.</p>
+      <div class="go">
+         <script src="pwn_i8.js"></script>
+         <a href="javascript:go()">
+            <h1>go</h1>
+         </a>
+      </div>
+      <footer>
+         <p>Project by <a href = "https://twitter.com/_niklasb?lang=en">@_niklasb</a> from phoenhex</p>
+         <br>
+      </footer>
+   </body>
+</html>
